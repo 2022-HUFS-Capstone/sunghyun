@@ -1,22 +1,11 @@
 <template>
   <v-app>
 
-      <v-spacer></v-spacer>
-    <template>
-
-
-
-</template>
-    <v-main>
-
-      <template>
   <v-tabs>
     <v-tab>SYSTEM EVENTS</v-tab>
     <v-tab>FAULT EVENTS</v-tab>
   </v-tabs>
-</template>
 
-          <template>
   <v-simple-table>
     <template v-slot:default>
       <thead>
@@ -44,9 +33,7 @@
       </tbody>
     </template>
   </v-simple-table>
-</template>
 
-    </v-main>
   </v-app>
 </template>
 

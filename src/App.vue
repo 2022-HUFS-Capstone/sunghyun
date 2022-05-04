@@ -1,8 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="primary" 
-    elevation="4"
-  rounded>
+    <v-app-bar app color="primary" elevation="4" rounded>
   <v-app-bar-nav-icon @click="drawer = !drawer"/>
       <v-container fluid>
           <v-row justify="center" align="center">
@@ -28,12 +26,10 @@
             ETU-25-GE
           </v-list-item-title>
           <v-list-item-subtitle>
-            
+
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
-
-      <v-divider></v-divider>
 
       <v-list
         dense
